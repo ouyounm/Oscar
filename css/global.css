@@ -1,0 +1,231 @@
+/* BACKGROUND IMAGES */
+body {
+  width: 100%;
+}
+
+html {
+  width: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  height: 40px;
+  color: white;
+  z-index: 1000;
+  opacity: .7;
+}
+header h1 {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  float: none;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 100px;
+}
+
+#a {
+  background-size: cover;
+  background-image: url(../oscar0.jpg);
+}
+
+#b {
+  background-size: cover;
+  background-image: url(../oscar1.jpg);
+}
+
+#c {
+  background-size: cover;
+  background-image: url(../oscar2.jpg);
+}
+
+#d {
+  background-size: cover;
+  background-image: url(../oscar3.jpg);
+}
+
+.box, .box1, .box2, .box3, .box4 {
+  background-size: 500px 400px;
+  background-repeat: no-repeat;
+  z-index: 1010;
+  width: 500px;
+  height: 400px;
+  opacity: 0.9;
+}
+
+.article, .article1, .article2 {
+  font-size: 14px;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+}
+
+.box1 {
+  background-image: url(http://media.screened.com/uploads/0/183/576822-sandw.jpg);
+}
+
+.box2 {
+  background-image: url(http://static1.wikia.nocookie.net/__cb20101201224652/muppet/images/thumb/b/be/Gangstersbenny.jpg/302px-Gangstersbenny.jpg);
+}
+
+.box3 {
+  background-image: url(http://31.media.tumblr.com/tumblr_llboxeozNC1qjed1zo1_500.jpg);
+}
+
+.box4 {
+  background-image: url(http://www.texasmornings.com/wp-content/uploads/2012/09/muppets-piggy-kermit.jpg);
+}
+
+.article1 {
+  background-color: #f28066;
+}
+
+.article2 {
+  background-color: #12b3ab;
+}
+
+.content, .content1 {
+  border: 1px solid #12b3ab;
+  width: 500px;
+  float: right;
+  margin-right: 50px;
+}
+
+.content2, .content3 {
+  float: left;
+  margin-left: 150px;
+}
+
+#myMenu {
+  margin-left: 100px;
+  margin-top: 10px;
+  float: left;
+}
+
+.listitem {
+  border: 2px solid white;
+  border-radius: 100%;
+  margin-left: 10px;
+  margin-top: -5px;
+  font-size: 15px;
+  padding: 5px 7px 5px 7px;
+}
+.listitem:hover {
+  border: 2px solid #1f5d1f;
+}
+
+input, textarea {
+  padding: 9px;
+  border: solid 2px #E6E6E6;
+  outline: 0;
+  font: normal 13px/100% Verdana, Tahoma, sans-serif;
+  width: 200px;
+  background: #FFFFFF;
+}
+
+textarea {
+  width: 400px;
+  max-width: 400px;
+  height: 150px;
+  line-height: 150%;
+}
+
+input:hover, textarea:hover {
+  border-color: #C9C9C9;
+}
+
+.submit input {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+.form label {
+  margin-left: 10px;
+  color: #999999;
+}
+
+.submit input {
+  width: auto;
+  padding: 9px 15px;
+  background: #617798;
+  border: 0;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+#e {
+  margin-left: 40%;
+}
+
+.formheader {
+  font-size: 45px;
+  margin-bottom: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 1000px) {
+  .formheader {
+    margin-left: -130px;
+  }
+
+  .form {
+    margin-left: -130px;
+  }
+}
+@media (max-width: 780px) {
+  #myMenu {
+    display: none;
+  }
+
+  .form label {
+    margin-left: 10px;
+    color: #999999;
+    font-size: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .content {
+    margin-left: 0;
+  }
+
+  .form label {
+    margin-left: 10px;
+    color: #999999;
+    font-size: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .formheader {
+    margin-left: -200px;
+  }
+
+  .form {
+    margin-left: -200px;
+  }
+
+  label {
+    font-size: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .formheader {
+    margin-left: -120px;
+    font-size: 30px;
+  }
+
+  .form {
+    margin-left: -150px;
+  }
+}

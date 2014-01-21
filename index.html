@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+        <link rel="stylesheet" type="text/css" href="css/global.css">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script type="text/javascript" src="jquery.fullPage.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<script type="text/javascript">
+
+                $(document).ready(function() {
+                        var pepe = $.fn.fullpage({
+                                anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+                                menu: '#menu'
+                        });
+
+                        $('#showExamples').click(function(e){
+                                e.stopPropagation();
+                                $('#examplesList').toggle();
+                        });
+
+                        $('html').click(function(){
+                                $('#examplesList').hide();
+                        });
+                });
+</script>
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+        <div id="superContainer">
+                <header>
+                  <ul id="myMenu">
+                    <li data-menuanchor="firstPage" class="listitem" class="active"><a href="#firstPage" class="pagenumber">1</a></li>
+                    <li data-menuanchor="secondPage" class="listitem"><a href="#secondPage" class="pagenumber">2</a></li>
+                    <li data-menuanchor="thirdPage" class="listitem"><a href="#3rdPage" class="pagenumber">3</a></li>
+                    <li data-menuanchor="fourthPage" class="listitem"><a href="#4thpage" class="pagenumber">4</a></li>
+                  </ul>
+                    <h1>The Life and Times of Oscar the Grouch</h1>
+                </header>
+                <div class="section" id="a">
+                        <div class="content">
+                                <div class="box1"></div>
+                                <article class="article1"><p>So, you want to know about Oscar the Grouch eh? Well let me sum it up for ya! You think the economy is bad? Here on Sesame Street it's not enough we have an overgrown bird who I'm sure is a GMO experiment gone bad or a furry red monster with eyeballs at the top of his head that never seem to roll off, but the local bank decided to repo my home... I LIVE IN A TRASH CAN FOR CRYING OUT LOUD! Now that I think about it, maybe that's why my girl left me.</p></article>
+                        </div>
+                </div>
+                <div class="section" id="b">
+                        <div class="content content1">
+                                <div class="box2"></div>
+                                <article class="article2"><p>So... desperate times call for desperate measures. I got hookups with the local drug dealers Holmes and Watson and suprisingly, there's this new rage called the cookie high. Well I thought to myself, there's only one guy on Sesame Street with that kinda stuff. After all, his first name is "Cookie".</p></article>
+                        </div>
+                </div>
+                <div class="section" id="c">
+                        <div class="content content2">
+                                <div class="box3"></div>
+                                <article class="article1"><p>Anyways, a couple days later I show up to ole' cookie chompers' house. Low and behold, the guy is face down on the table with a bunch of 'milk' in front of him. (I did not secretly poison his milk during my last visit.) A couple weeks go by, money's rolling in, life is good! I decide to go visit that over decorated bacon with heels to see if the porker would take me back now that I was a rich and honest businessman. Cough cough</p></article>
+                        </div>
+                </div>
+                <div class="section" id="d">
+                        <div class="content content3">
+                                <div class="box4"></div>
+                                <article class="article2"><p>Guess what! I show up to this flip flop's house only to find out that she had run off with that no good green poser Kermit! That sad excuse for a frog couldn't score a date with a garden weed! Oh well, already got rid of one monster, one more dead guy shouldn't hurt anyone. Oh and in case you haven't gotten the hint, you got a problem you need solved? I'm your guy!</p></article>
+                        </div>
+                </div>
+            <div class="section" id="e">
+                <h2 class="formheader">Make Oscar feel better</h2>
+            <form class="form">
+                <p class="name">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </p>
+                <p class="email">
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" id="email" />
+                </p>
+                <p class="text">
+                    <textarea name="text" placeholder="What do you want to tell Oscar?"></textarea>
+                </p>
+                <p class="submit">
+                    <input type="submit" value="Send" />
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
